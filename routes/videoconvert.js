@@ -1,5 +1,5 @@
 //THIS MERGES MULTIPLE VIDEO FILES
-
+var ffmpeg = require("fluent-ffmpeg")
 var firstFile = "title.mp4";
 var secondFile = "source.mp4";
 var thirdFile = "third.mov";
