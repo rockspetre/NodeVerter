@@ -24,3 +24,5 @@ var proc = ffmpeg(firstFile)
       console.log('an error happened: ' + err.message);
     })
     .mergeToFile(outPath);
+
+//THE OUTPUT CAN BE PIPED TO AN OUTPUT STREAM OR TO A STREAMING URL
